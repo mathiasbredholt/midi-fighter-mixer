@@ -53,13 +53,13 @@ public class MIDIFighterMixerExtensionDefinition extends ControllerExtensionDefi
    @Override
    public int getRequiredAPIVersion()
    {
-      return 12;
+      return 18;
    }
 
    @Override
    public int getNumMidiInPorts()
    {
-      return 1;
+      return 2;
    }
 
    @Override
